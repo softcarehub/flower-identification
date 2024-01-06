@@ -8,7 +8,7 @@ st.title('Flower Identification')
 # Load the model
 #model_path = "/content/drive/MyDrive/Web App/saved_model"
 model_path = "C:\\Users\\mdbar\\Desktop\\flower identification web app\\saved_model"
-model = tf.keras.models.load_model(model_path)
+model = tf.keras.models.load_model("model_path") 
 
 data_cat = ['daisy', 'dandelion', 'roses', 'sunflowers', 'tulips']
 img_height = 224
